@@ -12,17 +12,18 @@ public class Posta {
 		persona.add(p);
 	}
 	
-	public void chiEIlProssimo(Persona p) {
-		persona.peek();
+	public Persona chiEIlProssimo(){
+		return persona.peek();
 	}
 	
-	public void  servireProssimo(Persona p) {
-		persona.poll();
+	public Persona servireProssimo() {
+		return persona.poll();
 	} 
 	
 	public void mostraCoda() {
+		System.out.println("Persona in coda: ");
 		for (Persona stampaCoda : persona) {
-			System.out.println(stampaCoda);
+			System.out.println(stampaCoda.getNome());
 		}
 	}
 }

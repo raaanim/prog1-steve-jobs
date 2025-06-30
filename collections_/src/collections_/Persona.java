@@ -2,7 +2,8 @@ package collections_;
 
 public class Persona {
 		
-		String nome;
+		private String nome;
+		
 		
 		
 		public Persona(String nome) {
@@ -10,7 +11,7 @@ public class Persona {
 		}
 
 		
-		public String getNome(String nome) {
+		public String getNome() {
 			return nome;
 		}
 }
