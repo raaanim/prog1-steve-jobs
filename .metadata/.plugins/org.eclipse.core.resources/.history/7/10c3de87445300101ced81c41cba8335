@@ -1,0 +1,9 @@
+package interfaccia_veicolo;
+
+public class Auto_Ibrida extends Veicolo {
+
+	public Auto_Ibrida(int batteria) {
+		super(batteria);
+	}
+
+}

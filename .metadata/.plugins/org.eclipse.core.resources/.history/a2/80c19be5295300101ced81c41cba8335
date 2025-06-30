@@ -1,0 +1,13 @@
+package _eccezioni;
+
+public class Main {
+	public static void main (String[]args) {
+		double a = 30;
+		double b = 0;
+		
+		System.out.println(30 / 0);
+		
+		
+	}
+
+}

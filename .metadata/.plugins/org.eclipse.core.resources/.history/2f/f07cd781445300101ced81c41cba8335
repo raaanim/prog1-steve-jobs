@@ -1,0 +1,7 @@
+package interfaccia_veicolo;
+
+public class Ricaricabile interface Auto_Ibrida{
+	
+	void ricarica();
+
+}

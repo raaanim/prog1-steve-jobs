@@ -1,0 +1,18 @@
+package eccezioni_array;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[]args) {
+		
+		String[] Pianeti = {"Mercury", "Jupiter","Saturn","Venus","Uranus"};
+		
+		Scanner pianeta = new Scanner(System.in);
+		int indice = pianeta.nextInt();
+		
+		System.out.println("Indice scelto: " + indice);
+		System.out.println("L'elemento dell'array nell'indice scelto è: ");
+		System.out.println(Pianeti[indice]);
+	}
+
+}

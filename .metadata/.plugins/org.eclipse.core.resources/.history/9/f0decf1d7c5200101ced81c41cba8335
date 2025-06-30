@@ -1,0 +1,9 @@
+package utente_abstract;
+
+public class Cliente extends Utente{
+	
+	    public Cliente (String username, String email) {
+		super(username, email);
+	}
+
+}

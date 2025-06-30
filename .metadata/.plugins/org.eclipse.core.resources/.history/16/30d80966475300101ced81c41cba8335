@@ -1,0 +1,12 @@
+package interfaccia_veicolo;
+
+public class Main {
+	public static void main(String[]args) {
+		AutoIbrida a1 = new AutoIbrida(70);
+		
+		a1.toString();
+		a1.ricarica();
+		a1.toString();
+	}
+
+}

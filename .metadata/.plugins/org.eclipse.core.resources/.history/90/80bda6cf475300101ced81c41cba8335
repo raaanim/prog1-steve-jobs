@@ -1,0 +1,36 @@
+package interfaccia_veicolo;
+
+public class AutoIbrida extends Veicolo implements Ricaricabile, Connettività {
+	
+	private boolean connected;
+	
+	public AutoIbrida(int batteria) {
+		super(batteria);
+		this.connected = false;
+	}
+
+	@Override
+	public void connetti() {
+		System.out.println("Bleutooth connesso");
+		this.connected = true;
+		
+	}
+
+	@Override
+	public void disconnetti() {
+		System.out.println("Bleutooth disconnesso");
+		this.connected = false;
+		
+	}
+
+	@Override
+	public boolean isConnesso() {
+		return this.connected;
+	}
+
+	@Override
+	public void ricarica() {
+		batteria = 100;
+	}
+
+}
