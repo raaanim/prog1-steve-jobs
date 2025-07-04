@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class Browser {
 	
-	Stack<String> cronologia = new Stack<String>();
+	private Stack<String> cronologia = new Stack<String>();
 	
 	// Aggiunge l’URL della nuova pagina allo stack.
 	public boolean visitPage(String url){

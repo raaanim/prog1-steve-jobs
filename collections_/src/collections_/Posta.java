@@ -14,6 +14,7 @@ public class Posta {
 	
 	public Persona chiEIlProssimo(){
 		return persona.peek();
+	
 	}
 	
 	public Persona servireProssimo() {

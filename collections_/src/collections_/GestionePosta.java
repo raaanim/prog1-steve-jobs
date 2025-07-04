@@ -27,13 +27,6 @@ public class GestionePosta {
 		System.out.println("\n");
 		gestione.mostraCoda();
 		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

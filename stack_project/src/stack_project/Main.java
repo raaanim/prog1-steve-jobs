@@ -14,6 +14,7 @@ public class Main {
 		//Debug 
 		crono.printHistory();
 		
+		
 		//Uso del taso "indietro" una o due volte
 		crono.goBack();
 		crono.goBack();
